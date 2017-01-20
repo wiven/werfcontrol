@@ -11,5 +11,10 @@ module.exports = {
             { test: /\.css$/, loader: "style!css" }
         ]
     },
-    plugins: [new HtmlWebpackPlugin()]
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: "./src/index.html",
+            inject: "body",
+        })
+    ]
 };
