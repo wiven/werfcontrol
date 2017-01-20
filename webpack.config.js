@@ -1,12 +1,15 @@
+var HtmlWebpackPlugin = require("html-webpack-plugin");
+
 module.exports = {
-    entry: "./entry.js",
+    entry: "./src/entry.js",
     output: {
-        path: __dirname,
+        path: __dirname + "/dst/",
         filename: "bundle.js"
     },
     module: {
         loaders: [
             { test: /\.css$/, loader: "style!css" }
         ]
-    }
+    },
+    plugins: [new HtmlWebpackPlugin()]
 };
