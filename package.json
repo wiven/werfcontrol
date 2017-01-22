@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://wivenwebsolutions@github.com/wivenwebsolutions/werfcontrol.git"
+    "url": "git+https://wiven@github.com/wiven/werfcontrol.git"
   },
   "author": "Wim Vandevenne",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wivenwebsolutions/werfcontrol/issues"
+    "url": "https://github.com/wiven/werfcontrol/issues"
   },
-  "homepage": "https://github.com/wivenwebsolutions/werfcontrol#readme",
+  "homepage": "https://github.com/wiven/werfcontrol#readme",
   "devDependencies": {
     "css-loader": "^0.26.1",
     "extract-text-webpack-plugin": "^1.0.1",
