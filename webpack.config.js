@@ -10,10 +10,13 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader")
+                test: /\.css$/,
+                loader: ExtractTextPlugin.extract("style-loader", "css-loader"),
+                exclude: /node_modules/
             }
         ]
     },
+    devtool: 'source-map',
     plugins: [
         new ExtractTextPlugin("style.css"),
         new HtmlWebpackPlugin({
